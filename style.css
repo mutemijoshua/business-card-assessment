@@ -8,6 +8,7 @@ body {
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 10px;
     background-color: #ccc;
+    
   }
   
   /* Selectors to be matched up with rulesets */
@@ -27,10 +28,16 @@ body {
     background-color:red;
     border: 0.2em solid black;
     border-radius: 1.5em;
+    
+    
   }
   img {
     max-width: 50%;
     height: auto;
+    color: rgb(128, 0, 0);
+    
+    
+    
 
   }
   
@@ -41,6 +48,8 @@ body {
     height: 50px;
     padding: 10px;
     line-height: 10px;
+    
+    
 
   }
   
@@ -52,26 +61,42 @@ body {
   padding: 10px;
   line-height: 10px;
   
+  
   }
   
   .card article img{
     max-height: 100%;
     float: right;
+    
+    
+    
+  
+    
   }
   
   .h2,.p{
     margin: 0%;
   }
   .h2{
-    font-size: 1.25em;
+    font-size: 30px;
+    position: absolute;
+    
   }
   .article{
     height: 7.5em;
     font-size: 1.25em;
+    color: white;
+    padding: 10px;
+    
   }
   
   .footer{
     font-size: 15px;
-    line-height: 20em;
+    line-height: 30px;
+    
   }
-  
+ .p{
+  /*color: rgb(128, 0, 0);*/
+  background: rgb(190, 22, 22);
+  filter: alpha(opacity=60);
+ }
